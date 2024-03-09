@@ -4,7 +4,7 @@ import AnimatedText from '../components/AnimatedText'
 import Layout from '../components/Layout'
 import Skills from '../components/Skills'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic from '../../public/images/profile/profile.jpg'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Experience from '../components/Experience'
 import Education from '../components/Education'
@@ -60,18 +60,21 @@ const About = () => {
                     <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                         <p className='mb-2'>
-                            Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                            new and innovative ways to bring my clients&apos; visions to life.
+                        Hello, I&apos;m Javier Flores Cardenas, a dedicated fullstack developer driven by a passion for turning ideas into functional, 
+                        intuitive digital solutions. With over four years of hands-on experience in the industry, I thrive on the challenges of bringing 
+                        clients&apos; visions to life through innovative coding and technology.
                         </p>
                         <p className='mb-2'>
-                            I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
-                            creating intuitive, enjoyable experiences for users. 
+                        As a fullstack developer, I am committed to delivering more than just lines of code – I aim to create impactful 
+                        digital experiences that resonate with users and drive results. With a keen eye for detail and a relentless 
+                        pursuit of excellence, I approach every project with the goal of exceeding expectations and delivering tangible 
+                        value.
                         </p>
                         <p className='mb-2'>
-                            Whether I&apos;m working on a website, mobile app, or 
-                            other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                            every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                        My journey as a fullstack developer has been defined by a relentless pursuit of growth and innovation. From 
+                        crafting elegant front-end designs to architecting robust back-end systems, I bring a versatile skill set and 
+                        a proactive mindset to every project. With a focus on collaboration and a dedication to continuous improvement, 
+                        I am eager to contribute to a dynamic team and make a meaningful impact in the ever-evolving world of technology.
                         </p>
                     </div>
                     <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 xl:col-span-4
@@ -85,7 +88,7 @@ const About = () => {
                     <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={50}></AnimatedNumbers>+
+                                <AnimatedNumbers value={10}></AnimatedNumbers>+
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                                 xs:text-sm'>Satisfied clients</h2>
@@ -101,7 +104,7 @@ const About = () => {
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={5}></AnimatedNumbers>+
+                                <AnimatedNumbers value={4}></AnimatedNumbers>+
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                                 xs:text-sm'>Years of experience</h2>

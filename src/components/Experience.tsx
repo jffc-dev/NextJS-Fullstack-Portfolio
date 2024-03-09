@@ -51,51 +51,33 @@ const Experience = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details position='Software Engineer'
-                        company='Google'
-                        companyLink='https://www.google.com'
-                        time='2022-Present'
-                        address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google&apos;s 
-                        search engine, including improving the accuracy and relevance of search results and 
+                        company='Consejeros y Corredores de Seguros'
+                        companyLink='https://www.consejeros.com.pe/'
+                        time='Dec 2021-Present'
+                        address='Arequipa, Peru'
+                        work='Worked on a team responsible for developing new features for Consejeros&apos; 
+                        ratail page, including improving the accuracy and relevance of search results and 
                         developing new tools for data analysis and visualization.'/>
 
                     <Details
-                        position='Intern'
-                        company='Facebook'
-                        companyLink='https://www.facebook.com'
-                        time='Summer 2021'
-                        address='Menlo Park, CA.'
-                        work='Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-                        share short-form video content, including designing and implementing a new user interface and developing 
-                        the backend infrastructure to support the feature.'/>
+                        position='Fullstack Developer'
+                        company='Sacrun'
+                        companyLink='https://www.sacrun.com/'
+                        time='Feb 2021-Dec 2021'
+                        address='Arequipa, Peru'
+                        work='Worked on a team responsible for developing new features for Sacrun&apos;s web platform, 
+                        including implementing a new user interface for a system settings panel and optimizing the performance of 
+                        the web.'/>
 
                     <Details
-                        position='Software Developer'
-                        company='Amazon'
-                        companyLink='https://www.amazon.com'
-                        time='2020-2021'
-                        address='Seattle, WA.'
-                        work='Worked on a team responsible for developing Amazon&apos;s mobile app, including implementing new features such 
+                        position='Trainee Developer'
+                        company='VHB Industrial'
+                        companyLink='https://www.vhbindusac.com/'
+                        time='Feb 2020-Mar 2020'
+                        address='Arequipa, Peru'
+                        work='Worked on a team responsible for developing VHB&apos;s web app, including implementing new features such 
                         as product recommendations and user reviews, and optimizing the app&apos;s performance and reliability.'/>
 
-                    <Details
-                        position='Software Developer Intern'
-                        company='Microsoft'
-                        companyLink='https://www.microsoft.com'
-                        time='Summer 2019'
-                        address='Redmond, WA.'
-                        work='Worked on a team responsible for developing new features for Microsoft&apos;s Windows operating system, 
-                        including implementing a new user interface for a system settings panel and optimizing the performance of 
-                        a core system component.'/>
-
-                    <Details
-                        position='Teaching Assistant'
-                        company='MIT'
-                        companyLink='https://www.mit.edu'
-                        time='Fall 2018'
-                        address='Massachusetts Ave, Cambridge, MA.'
-                        work='Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-                        and graded exams and assignments.'/>
                 </ul>
             </div>
         </div>

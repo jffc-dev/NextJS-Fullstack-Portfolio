@@ -47,17 +47,17 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        type='Bachelor of Software Design and Development'
+                        type='Technical Bachelor of Software Design and Development'
                         place='Tecsup'
                         time='2019-2021'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+                        info='Relevant courses included Data Structures and Algorithms, Software Development, and Artificial 
                         Intelligence.'/>
 
                     <Details
                         type='Bachelor of Systems Engineering'
                         place='Continental University'
                         time='2024-Present'
-                        info='Completed a master&apos;s project on deep learning, developing a new neural network architecture for natural 
+                        info='Taking a bachelor&apos;s project on deep learning, developing a new neural network architecture for natural 
                         language understanding.'/>
                 </ul>
             </div>

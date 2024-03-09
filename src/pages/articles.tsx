@@ -8,6 +8,7 @@ import Article1Image from '../../public/images/articles/pagination component in 
 import Article2Image from '../../public/images/articles/What is Redux with easy explanation.png'
 import { motion, useMotionValue } from 'framer-motion'
 import TransitionEffect from '../components/TransitionEffect'
+import ComingSoon from '../components/ComingSoon'
 
 interface FeaturedArticleProps {
     img: StaticImageData
@@ -106,8 +107,10 @@ const Articles = () => {
         <TransitionEffect/>
         <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
             <Layout className='pt-16'>
+
+                <ComingSoon text=''></ComingSoon>
                 
-                <AnimatedText text='Words Can Change The World!' className='mb-16 lg:text-7xl sm:mb-8 sm:text-6xl xs:text-4xl'></AnimatedText>
+                {/* <AnimatedText text='Words Can Change The World!' className='mb-16 lg:text-7xl sm:mb-8 sm:text-6xl xs:text-4xl'></AnimatedText>
 
                 <ul className='grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16'>
                     <FeaturedArticle title='Build A Custom Pagination Component In Reactjs From Scratch'
@@ -130,7 +133,7 @@ const Articles = () => {
                     <Article date='Feb 23, 2024' link='/' img={Article1Image} title='Build A Fabulous Todo List App With React, Redux And Framer-Motion'></Article>
                     <Article date='Feb 23, 2024' link='/' img={Article1Image} title='Redux Simplified: A Beginner&apos;s Guide For Web Developers'></Article>
                     <Article date='Feb 23, 2024' link='/' img={Article1Image} title='What Is Higher Order Component (Hoc) In React?'></Article>
-                </ul>
+                </ul> */}
 
             </Layout>
         </main>

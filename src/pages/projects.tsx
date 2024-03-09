@@ -8,6 +8,7 @@ import { GithubIcon } from '../components/Icons'
 import project1Image from '../../public/images/projects/crypto-screener-cover-image.jpg'
 import { motion } from 'framer-motion'
 import TransitionEffect from '../components/TransitionEffect'
+import ComingSoon from '../components/ComingSoon'
 
 interface FeaturedProjectProps {
     type: string
@@ -105,7 +106,7 @@ const Projects = () => {
         <TransitionEffect/>
         <main className='w-full mb-16 flex flex-col items-center justify-center'>
             <Layout className='pt-16'>
-                <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16 lg:text-7xl sm:mb-8 sm:text-6xl xs:text-4xl'></AnimatedText>
+                {/* <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16 lg:text-7xl sm:mb-8 sm:text-6xl xs:text-4xl'></AnimatedText>
 
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 sm:gap-y-12'>
                     <div className='col-span-12'>
@@ -130,7 +131,9 @@ const Projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project title='Crypto Screener Application' link='/' type='Featured Project' img={project1Image} github='/'></Project>
                     </div>
-                </div>
+                </div> */}
+
+                <ComingSoon text=''></ComingSoon>
             </Layout>
         </main>
     </>
